@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+/* nav-bar start */
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+#nav-item {
+  margin: 0px 50px;
+}
+
+.nav-item {
+  margin: 0px 10px !important;
+}
+
+#nav-items {
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#nav-items:hover {
+  color: #ff8080;
+}
+
+#nav-item a {
+  font-weight: 600;
+}
+
+#nav-button-box {
+  background-color: #ff8080;
+  width: 90px;
+  height: 38px;
+  padding: 0px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+#nav-button-box:hover {
+  background-color: #7f4646;
+}
+
+#nav-button-box a {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.log-in:hover {
+  color: #ff8080 !important;
+}
+
+/* nav-bar end */
+
+/* events header start  */
+
+#events-header {
+  height: 367px;
+  padding: 150px 0px 60px 0px;
+  background-color: #ff808025;
+  border-radius: 0 0 30px 30px;
+}
+
+.events-header-main h1 {
+  font-weight: 800;
+  font-size: 80px;
+}
+
+/* events header end  */
+
+/* Bachelorette party start */
+
+.bachelorette-party {
+  margin-top: 80px;
+}
+
+.head1 h1 {
+  font-size: 55px;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+}
+
+.head1 p {
+  margin: 15px 0px;
+  color: rgb(50, 50, 50);
+}
+
+.icons {
+  padding: 40px 0px;
+  border-bottom: 1px solid rgba(165, 165, 165, 0.507);
+}
+
+.icons p {
+  font-size: 18px;
+  margin: 0px 50px 0px 20px;  
+}
+
+.icons i {
+  color: #ff8080;
+  background-color: #ff808029;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.packages-btn button {
+  color: white;
+  width: 25% !important;
+  border: none;
+  background-color: #ff8080;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 27px;
+  border-radius: 5px;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+
+.packages-btn button:hover {
+  color: black;
+  background-color: #e7ffec;
+  box-shadow: 0px 0px 20px rgb(139, 139, 139);
+}
+
+.packages-btn button:active {
+  color: white;
+  background-color: black;
+}
+
+.pics-child {
+  padding: 0 !important;
+  overflow: hidden;
+  margin: 50px 25px 0px 0px !important;
+  border-radius: 5px !important;
+}
+
+.pics-child img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.pics-child img:hover {
+  scale: 1.1;
+}
+
+/* Bachelorette party end  */
+
+/* gift start */
+
+#gift {
+  padding: 100px 0px;
+}
+
+.gift-main {
+  padding: 60px !important;
+
+  background-color: #3a184a;
+  background-image: url(https://themes.muffingroup.com/be/event8/wp-content/uploads/2022/01/event8-wrap-bg5.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-radius: 30px;
+}
+
+.gift-box-1 h4 {
+  color: #ff8080;
+  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.gift-box-1 h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.gift-box-2 {
+  color: white;
+}
+
+.gift-box-2 h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.gift-box-2 p {
+  font-weight: 600;
+}
+
+.gift-btn {
+  color: white;
+  width: 170px;
+  border: none;
+  background-color: #ff8080;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 15px 27px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.gift-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.gift-btn:active {
+  color: white;
+  background-color: black;
+}
+
+.gift-box-2 i {
+  margin-left: 15px;
+}
+
+/* gift end  */
+
+/* footer start  */
+
+.footer-main {
+  margin-bottom: 90px;
+}
+
+.footer-logo {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-box1 {
+  width: 550px !important;
+}
+
+.footer-box1 p {
+  margin: 35px 0px;
+  font-weight: 500;
+}
+
+.footer-icons i {
+  font-size: 28px;
+  margin-right: 15px;
+  transition: 0.2s;
+}
+
+.footer-icons i:hover {
+  color: #ff8080;
+  font-size: 30px;
+}
+
+#footer h5 {
+  margin-bottom: 15px;
+}
+
+.footer-box2 ul {
+  padding: 0 !important;
+}
+
+.footer-box2 li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.footer-box2 a {
+  color: black;
+  font-size: 17px;
+  font-family: "Space Grotesk", sans-serif !important;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-box2 a:hover {
+  color: #ff8080;
+}
+
+.copywrite p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+
+/* footer end  */

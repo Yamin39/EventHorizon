@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+/* nav-bar start */
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+#nav-item {
+  margin: 0px 50px;
+}
+
+.nav-item {
+  margin: 0px 10px !important;
+}
+
+#nav-items {
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#nav-items:hover {
+  color: #ff8080;
+}
+
+#nav-item a {
+  font-weight: 600;
+}
+
+.nav-home {
+  color: #ff8080 !important;
+}
+
+#nav-button-box {
+  background-color: #ff8080;
+  width: 90px;
+  height: 38px;
+  padding: 0px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+#nav-button-box:hover {
+  background-color: #7f4646;
+}
+
+
+#nav-button-box a {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.log-in{
+  font-weight: 500 !important;
+}
+
+/* nav-bar end */
+
+/* home banner  */
+
+.home-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(home-banner-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-banner p {
+  color: #f6fdc3;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.home-banner h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#home-banner-btn {
+  background-color: #ffffff24;
+  width: 185px;
+  height: 53px;
+  padding: 0px 18px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-banner-btn:hover {
+  background-color: rgb(255, 207, 150);
+  border: none;
+}
+
+#home-banner-btn a {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+#home-banner-btn i {
+  color: white;
+  font-size: 18px;
+}
+
+/* home banner end */
+
+/* steps start  */
+
+.steps {
+  padding: 100px 0px;
+}
+
+.steps-img img {
+  width: 695px;
+  border-radius: 10px;
+}
+
+.steps-content {
+  margin: 10px 0px 10px 90px;
+}
+
+.steps-content h5 {
+  color: #ff8080;
+}
+
+.steps-content h1 {
+  font-weight: 800;
+}
+
+.steps-content p {
+  color: rgb(83, 83, 83);
+  margin-top: 25px;
+  font-weight: 500;
+  border-left: 7px solid #ff8080;
+  padding-left: 15px;
+}
+
+.steps-li {
+  border: none !important;
+  background-color: transparent !important;
+  padding-left: 0px !important;
+}
+
+.steps-li p {
+  margin: 0;
+  padding: 0;
+  border: none !important;
+}
+
+.steps-li i {
+  color: #ff8080;
+}
+
+.steps-content button {
+  border: none;
+  background-color: #ff8080;
+  font-weight: 600;
+  margin-top: 6px;
+  padding: 15px 27px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.steps-content button:hover {
+  background-color: #f6fdc3;
+}
+
+.steps-sm {
+  color: white;
+  background-color: #ff8080;
+}
+
+.steps-sm h2 {
+  margin-left: 20px;
+  font-family: "Playfair Display", serif !important;
+}
+
+.steps-sm i {
+  margin-right: 17px;
+}
+
+.steps-content2 {
+  width: 100% !important;
+  margin-top: 100px !important;
+}
+
+.steps-content2 h1 {
+  color: white;
+  width: 90px;
+  height: 90px;
+  background-color: #ff8080;
+  font-size: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-content2 h2 {
+  margin: 16px 0px;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+}
+
+/* steps end  */
+
+/* second banner start */
+
+.second-banner {
+  background-color: #ff808039;
+  padding: 100px 0px;
+}
+
+.second-banner h6 {
+  color: #125d98;
+  margin-bottom: 30px;
+}
+
+.second-banner h1 {
+  font-size: 57px;
+  font-weight: 800;
+}
+
+#second-banner-btn {
+  background-color: #125d98;
+  width: 200px;
+  height: 53px;
+  padding: 0px 18px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-banner-btn:hover {
+  background-color: #f6fdc3;
+  border: none;
+}
+
+#second-banner-btn a {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#second-banner-btn:hover a {
+  color: black;
+}
+
+/* second banner end */
+
+/* about 1 start */
+
+.about-1 {
+  padding-top: 100px;
+}
+
+.about-1-img img {
+  width: 695px;
+  height: 840px;
+  border-radius: 10px;
+}
+
+.about-1-content h6 {
+  color: #ff8080;
+  margin-top: 5px;
+}
+
+.about-1-content h1 {
+  font-weight: 800;
+  margin: 25px 0px;
+}
+
+.about-1-content P {
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+}
+
+.about-1-icon i {
+  color: #ff8080;
+  font-size: 38px;
+}
+
+.about-1-box {
+  margin: 30px 0px 0px 30px;
+}
+
+.about-1-box h3 {
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+}
+
+.about-1-box P {
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+}
+
+/* about 1 end  */
+
+/* experience start  */
+
+#experience {
+  padding-top: 170px;
+  background-image: url(experiance.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#experience h1 {
+  font-size: 57px;
+  font-weight: 800;
+}
+
+.experience-items {
+  margin-top: 100px !important;
+}
+
+.experience-items h1 {
+  color: #ff8080;
+  font-size: 57px;
+  font-weight: 800;
+}
+
+.experience-items p {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: 500;
+}
+
+/* experience end  */
+
+/* packages start  */
+
+#packages {
+  padding-top: 100px;
+}
+
+.packages-box1 {
+  margin-right: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px !important;
+  transition: 0.5s;
+}
+
+.packages-box1:hover {
+  background-color: rgba(236, 236, 236, 0.818);
+}
+
+.packages-box1 h6 {
+  color: #ff8080;
+  margin-top: 5px;
+}
+
+.packages-box1 h1 {
+  font-size: 57px;
+  font-weight: 800;
+  margin: 25px 0px;
+}
+
+.packages-box1 h3 {
+  color: #ff8080;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  margin-bottom: 37px;
+}
+
+.packages-ul i {
+  color: limegreen;
+}
+
+.packages-box1 button {
+  color: white;
+  border: none;
+  background-color: rgb(122, 122, 122);
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 15px 27px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.packages-box1 button:hover {
+  color: black;
+  background-color: #bad7e9;
+}
+
+.packages-box1 button:active {
+  background-color: chocolate;
+}
+
+.packages-box2 {
+  border: none;
+  background-color: #ffcf96;
+}
+
+.packages-box2:hover {
+  background-color: #e7ad65c6;
+}
+
+.packages-box2 h6,
+.packages-box2 h3 {
+  color: #125d98 !important;
+}
+
+.packages-box2 button {
+  background-color: #363062;
+}
+
+.packages-box2 button:hover {
+  color: black;
+  background-color: #fcffe7;
+}
+
+.packages-box2 button:active {
+  color: white;
+  background-color: black;
+}
+
+/* packages end  */
+
+/* testimonial start  */
+
+#testimonial {
+  background-color: #5200b6;
+  margin-top: 100px;
+  padding: 100px 0px;
+}
+
+#testimonial h6{
+  color: #ff8080;
+}
+
+#testimonial h1{
+  color: white;
+  font-size: 57px;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+
+#testimonial img {
+  width: 450px;
+}
+
+.carousel-item img {
+  margin-top: 85px;
+  margin-bottom: 30px;
+}
+
+#testi-btn{
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+#testi-btn:hover {
+  background-color: #ff8080;
+}
+
+.carousel-indicators > .active {
+  background-color: #ff8080 !important;
+}
+
+.carousel-inner h5 {
+  font-weight: 600;
+}
+
+/* testimonial end  */
+
+/* gift start */
+
+#gift {
+  padding: 100px 0px;
+}
+
+.gift-main {
+  padding: 60px !important;
+  background-color: #3a184a;
+  background-image: url(https://themes.muffingroup.com/be/event8/wp-content/uploads/2022/01/event8-wrap-bg5.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-radius: 30px;
+}
+
+.gift-box-1 h4 {
+  color: #ff8080;
+  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.gift-box-1 h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.gift-box-2 {
+  color: white;
+}
+
+.gift-box-2 h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.gift-box-2 p {
+  font-weight: 600;
+}
+
+.gift-btn {
+  color: white;
+  width: 170px;
+  border: none;
+  background-color: #ff8080;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 15px 27px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.gift-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.gift-btn:active {
+  color: white;
+  background-color: black;
+}
+
+.gift-box-2 i {
+  margin-left: 15px;
+}
+
+/* gift end  */
+
+/* footer start  */
+
+.footer-main {
+  margin-bottom: 90px;
+}
+
+.footer-logo {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-box1 {
+  width: 550px !important;
+}
+
+.footer-box1 p {
+  margin: 35px 0px;
+  font-weight: 500;
+}
+
+.footer-icons i {
+  font-size: 28px;
+  margin-right: 15px;
+  transition: 0.2s;
+}
+
+.footer-icons i:hover {
+  color: #ff8080;
+  font-size: 30px;
+}
+
+#footer h5 {
+  margin-bottom: 15px;
+}
+
+.footer-box2 ul {
+  padding: 0 !important;
+}
+
+.footer-box2 li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.footer-box2 a {
+  color: black;
+  font-size: 17px;
+  font-family: "Space Grotesk", sans-serif !important;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-box2 a:hover {
+  color: #ff8080;
+}
+
+.copywrite p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+
+/* footer end  */

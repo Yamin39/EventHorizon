@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Playfair+Display:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+/* nav-bar start */
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+#nav-item {
+  margin: 0px 50px;
+}
+
+.nav-item {
+  margin: 0px 10px !important;
+}
+
+#nav-items {
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#nav-items:hover {
+  color: #ff8080;
+}
+
+#nav-item a {
+  font-weight: 600;
+}
+
+#nav-button-box {
+  background-color: #ff8080;
+  width: 90px;
+  height: 38px;
+  padding: 0px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+#nav-button-box:hover {
+  background-color: #7f4646;
+}
+
+#nav-button-box a {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.log-in:hover {
+  color: #ff8080 !important;
+}
+
+/* nav-bar end */
+
+.about-us-head {
+  width: 100%;
+  height: 100vh;
+  margin-top: 150px !important;
+}
+
+.about-us-head .box {
+  width: 40px;
+  height: 40px;
+  background-color: #ff808038;
+  border-radius: 0 100% 0 0;
+  margin-right: 30px;
+}
+
+.about-us-head h6 {
+  color: #ffa6a6;
+  margin: 0 !important;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.abh-content h1 {
+  margin-top: 30px;
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+}
+
+.abh-content p {
+  color: rgb(83, 83, 83);
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.7rem;
+}
+
+.abh-logo img {
+  width: 500px;
+  background-color: #ff808017;
+  border-radius: 100px 0px;
+}
+
+/* gift start */
+
+#gift {
+  padding: 100px 0px;
+}
+
+.gift-main {
+  padding: 60px !important;
+
+  background-color: #3a184a;
+  background-image: url(https://themes.muffingroup.com/be/event8/wp-content/uploads/2022/01/event8-wrap-bg5.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-radius: 30px;
+}
+
+.gift-box-1 h4 {
+  color: #ff8080;
+  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.gift-box-1 h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.gift-box-2 {
+  color: white;
+}
+
+.gift-box-2 h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.gift-box-2 p {
+  font-weight: 600;
+}
+
+.gift-btn {
+  color: white;
+  width: 170px;
+  border: none;
+  background-color: #ff8080;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 15px 27px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.gift-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.gift-btn:active {
+  color: white;
+  background-color: black;
+}
+
+.gift-box-2 i {
+  margin-left: 15px;
+}
+
+/* gift end  */
+
+/* footer start  */
+
+.footer-main {
+  margin-bottom: 90px;
+}
+
+.footer-logo {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-box1 {
+  width: 550px !important;
+}
+
+.footer-box1 p {
+  margin: 35px 0px;
+  font-weight: 500;
+}
+
+.footer-icons i {
+  font-size: 28px;
+  margin-right: 15px;
+  transition: 0.2s;
+}
+
+.footer-icons i:hover {
+  color: #ff8080;
+  font-size: 30px;
+}
+
+#footer h5 {
+  margin-bottom: 15px;
+}
+
+.footer-box2 ul {
+  padding: 0 !important;
+}
+
+.footer-box2 li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.footer-box2 a {
+  color: black;
+  font-size: 17px;
+  font-family: "Space Grotesk", sans-serif !important;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-box2 a:hover {
+  color: #ff8080;
+}
+
+.copywrite p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+
+/* footer end  */
